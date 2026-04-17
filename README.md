@@ -1,4 +1,4 @@
-#  Weather App API (FastAPI)
+#Weather App API (FastAPI)
 
 A simple Weather API built using FastAPI that allows users to:
 
@@ -9,9 +9,9 @@ A simple Weather API built using FastAPI that allows users to:
 
 ---
 
-# Features
+##Features
 
-## Core Features
+##Core Features
 
 * Get weather using location (city, zip, etc.)
 * Store results in database (SQLite)
@@ -32,7 +32,7 @@ A simple Weather API built using FastAPI that allows users to:
   * Google Maps link
   * YouTube search for location
 
-## Data Export
+##Data Export
 
 * Export data to CSV file
 
@@ -54,21 +54,21 @@ weather_app/
 
 ---
 
-# Installation
+#Installation
 
-## 1. Clone project
+##1. Clone project
 
 ```
 git clone https://github.com/AshokLama/Weather-App-FastAPI.git
 ```
 
-## 2. Install dependencies
+##2. Install dependencies
 
 ```
  pip3 install fastapi uvicorn sqlalchemy requests pydantic python-multipart
 ```
 
-## 3. Add API Key
+##3. Add API Key
 
 Get free API key from OpenWeather and update:
 
@@ -82,7 +82,7 @@ API_KEY = "your_api_key_here"
 
 ---
 
-# ▶️ Run Application
+#Run Application
 
 ```
 python3 -m uvicorn main:app --reload
@@ -96,9 +96,9 @@ http://127.0.0.1:8000/docs
 
 ---
 
-# API Endpoints
+#API Endpoints
 
-## Create Weather Record
+##Create Weather Record
 
 **POST** `/weather/`
 
@@ -112,7 +112,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## Get All Records
+##Get All Records
 
 **GET** `/weather/`
 
@@ -124,19 +124,19 @@ http://127.0.0.1:8000/docs
 
 ---
 
-## Delete Record
+##Delete Record
 
 **DELETE** `/weather/{id}`
 
 ---
 
-## Export Data
+##Export Data
 
 **GET** `/export/csv`
 
 ---
 
-# Validation Rules
+#Validation Rules
 
 * Start date must be before end date
 * Location must be valid
@@ -144,7 +144,7 @@ http://127.0.0.1:8000/docs
 
 ---
 
-#  Technologies Used
+#Technologies Used
 
 * FastAPI
 * SQLite
