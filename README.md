@@ -6,26 +6,21 @@ A simple Weather API built using FastAPI that allows users to:
 * Store weather queries in a database
 * Perform full CRUD operations
 * Export stored data
-
----
-
+  
 ##Features
 
 ##Core Features
-
 * Get weather using location (city, zip, etc.)
 * Store results in database (SQLite)
 * Input validation (date range + location)
-
+  
 ##CRUD Operations
-
 * **CREATE** → Add weather request with date range
 * **READ** → View all stored weather data
 * **UPDATE** → Update stored weather info
 * **DELETE** → Remove records
-
+  
 ##API Integration
-
 * Weather data from OpenWeather API
 * Optional:
 
@@ -33,13 +28,11 @@ A simple Weather API built using FastAPI that allows users to:
   * YouTube search for location
 
 ##Data Export
-
 * Export data to CSV file
 
 ---
 
 #Project Structure
-
 ```
 weather_app/
 │── main.py              # Main FastAPI app
@@ -57,11 +50,9 @@ weather_app/
 #Installation
 
 ##1. Clone project
-
 ```
 git clone https://github.com/AshokLama/Weather-App-FastAPI.git
 ```
-
 ##2. Install dependencies
 
 ```
@@ -69,7 +60,6 @@ git clone https://github.com/AshokLama/Weather-App-FastAPI.git
 ```
 
 ##3. Add API Key
-
 Get free API key from OpenWeather and update:
 
 ```
