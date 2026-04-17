@@ -70,7 +70,6 @@ weather_service.py
 API_KEY = "your_api_key_here"
 ```
 
----
 
 #Run Application
 
@@ -84,12 +83,9 @@ Open in browser:
 http://127.0.0.1:8000/docs
 ```
 
----
 
 #API Endpoints
-
 ##Create Weather Record
-
 **POST** `/weather/`
 
 ```
@@ -100,48 +96,28 @@ http://127.0.0.1:8000/docs
 }
 ```
 
----
-
 ##Get All Records
-
 **GET** `/weather/`
 
----
-
 ##Update Record
-
 **PUT** `/weather/{id}?temp=30`
 
----
-
 ##Delete Record
-
 **DELETE** `/weather/{id}`
 
----
-
 ##Export Data
-
 **GET** `/export/csv`
 
----
-
 #Validation Rules
-
 * Start date must be before end date
 * Location must be valid
 * ID must exist for update/delete
-
----
+  
 
 #Technologies Used
-
 * FastAPI
 * SQLite
 * SQLAlchemy
 * Requests
-
----
-
 
 
